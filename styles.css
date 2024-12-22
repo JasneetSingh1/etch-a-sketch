@@ -11,8 +11,22 @@ body {
     background-color: #fff;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+
 }
 
+.content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 240px;
+}
+
+.btn{
+    margin: 36px;
+    padding: 8px 12px;
+}
 
 .container {
     display: flex;
